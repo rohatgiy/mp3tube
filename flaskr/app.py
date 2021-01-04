@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from youtube import main
 
 app = Flask(__name__)
@@ -7,4 +7,4 @@ monkey = "balls"
 
 @app.route('/')
 def func():
-    return 'this is a ' + monkey + " and i have added youtube_dl"
+    return render_template('index.html')

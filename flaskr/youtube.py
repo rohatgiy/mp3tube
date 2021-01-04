@@ -13,7 +13,7 @@ ytdl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '192',
     }],
-    'outtmpl': HOMEDIR + '/Music/Music/Media.localized/Automatically Add to Music.localized/%(title)s.%(ext)s',
+    #'outtmpl': HOMEDIR + '/Music/Music/Media.localized/Automatically Add to Music.localized/%(title)s.%(ext)s',
     'ignoreerrors': True
 }
 
