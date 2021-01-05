@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+{% extends 'base.html' %}
 
-<html>
-    <head>
-        <title>yt-to-mp3</title>
-    </head>
-    <body>
+{% block body %}
+    <form method="post" action="{{url_for('video')}}" id="form" onsubmit="return loading();">
         <label for="link">Enter the link of the video you want to download.</label>
+        <br>
         <input type="text" name="link">
-    </body>
-</html>
+        <button>Click to download!</button>
+    </form>
+{% endblock %}

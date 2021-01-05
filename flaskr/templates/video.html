@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <p>The video you searched for is {{ link }}</p>
+    <br>
+    <a href="{{url_for('index')}}"><button>Go back</button></a>
+{% endblock %}
