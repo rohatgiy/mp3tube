@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <p>An error has occurred: <span class="text-danger">{{error}}</span></p>
+    <br>
+    <a href="{{url_for('index')}}"><button class="btn btn-info">Go back?</button></a>
+{% endblock %}

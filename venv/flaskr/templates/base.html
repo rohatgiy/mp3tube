@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../static/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <script src="../static/script.js" type="text/javascript"></script>
+        <title>mp3tube</title>
+    </head>
+    <body>
+        
+        <div class="col-md-6 offset-md-3" style="padding-top: 20vh; text-align: center;">
+            <div style="text-align: center;"><img src="../static/yt-to-mp3-logo.png" height="200px"/></div>
+            <br>
+            {% block body %}{% endblock %}
+        </div>
+    </body>
+</html>
