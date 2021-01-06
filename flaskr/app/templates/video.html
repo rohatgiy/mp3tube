@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <p><a href="{{ link }}">{{ title }}</a> has been downloaded.</p>
+    <br>
+    <a href="{{url_for('index')}}"><button class="btn btn-info">Go back?</button></a>
+{% endblock %}

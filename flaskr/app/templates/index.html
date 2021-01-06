@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <form method="post" action="{{url_for('video')}}">
+        <input type="text" name="link" class="form-control" placeholder="Enter the link of the video you want to download.">
+        <br>
+        <button class="btn btn-info">Click to download!</button>
+    </form>
+{% endblock %}
