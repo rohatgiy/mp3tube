@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 import os.path
-import youtube_dl
+import yt_dlp
 
 #%(title)s.%(ext)s
 
@@ -19,7 +19,7 @@ ytdl_opts = {
 
 def main():
     url = input('input a youtube/youtube playlist url: ')
-    with youtube_dl.YoutubeDL(ytdl_opts) as ytdl:
+    with yt_dlp.YoutubeDL(ytdl_opts) as ytdl:
         ytdl.download([url])
 
 if __name__ == '__main__':
