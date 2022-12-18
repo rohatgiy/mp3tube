@@ -1,5 +1,5 @@
 # mp3tube
-mp3tube is a lightweight web application that downloads Youtube videos to MP3 files. Try it out [here](http://ytmp3tube.herokuapp.com)!
+mp3tube is a lightweight web application that downloads Youtube videos to MP3 files. ~~Try it out [here](http://ytmp3tube.herokuapp.com)!~~ Heroku free tier ended, so deployment went down.
 
 <img width="1440" alt="Screen Shot 2021-01-07 at 7 29 51 PM" src="https://user-images.githubusercontent.com/55343494/103959851-c6234100-511e-11eb-9751-9a4ec0961e3a.png">
 
